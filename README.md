@@ -22,7 +22,8 @@ python3 main.py
 Before writing, the program checks the line — under 200
 characters, one line, one sentence — then writes it to
 `/output/entry.txt` and reads it back to confirm the bytes
-match. Running it twice leaves the same file both times.
+and the length match. Running it twice leaves the same file
+both times, so the output is fully reproducible.
 
 It needs nothing but the Python standard library.
 
